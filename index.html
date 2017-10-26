@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="fonts/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class='header'>
+            <nav class="main-nav">
+                <a href="#about" class="main-nav__link">
+                    <i class="icon main-nav__icon fa fa-user-circle-o"></i>
+                    <span class="main-nav__label">About me</span>
+                </a>
+                <a href="#resume" class="main-nav__link">
+                    <i class="icon main-nav__icon fa fa-address-book"></i>
+                    <span class="main-nav__label">Resume</span>
+                </a>
+                <a href="#services" class="main-nav__link">
+                    <i class="icon main-nav__icon fa fa-tasks"></i>
+                    <span class="main-nav__label">Services</span>
+                </a>
+                <a href="#portfolio" class="main-nav__link  main-nav__link--active">
+                    <i class="icon main-nav__icon fa fa-laptop"></i>
+                    <span class="main-nav__label">Portfolio</span>
+                </a>
+                <a href="#blog" class="main-nav__link">
+                    <i class="icon main-nav__icon fa fa-pencil"></i>
+                    <span class="main-nav__label">Blog</span>
+                </a>         
+                <a href="#contact" class="main-nav__link">
+                    <i class="icon main-nav__icon fa fa-location-arrow"></i>
+                    <span class="main-nav__label">Contact</span>
+                </a>                                                                       
+            </nav>
+        </header>
+        <!-- content area -->
+        <div class="content">
+            <div class="content__blocks">
+                <section id="about" class="content__block about">
+                    <div class="content__inner">
+                        <h2 class="title">
+                            <span class="title__label">Скоро...</span>
+                        </h2>
+                    </div>
+                </section>
+                <section id="resume" class="content__block resume">
+                    <div class="content__inner">
+                        <h2 class="title">
+                            <span class="title__label">Скоро...</span>
+                        </h2>
+                    </div>                    
+                </section>
+                <section id="services" class="content__block services">
+                    <div class="content__inner">
+                        <h2 class="title">
+                            <span class="title__label">Скоро...</span>
+                        </h2>
+                    </div>                    
+                </section>
+                <section id="portfolio" class="content__block portfolio content__block--active">
+                    <div class="content__inner">
+                        <h2 class="title">
+                            <span class="title__label">Portfolio</span>
+                        </h2>
+                        <div class="apps">
+                            <h3 class="apps__title">Web App</h3>
+                            <div class="apps__cards">
+                                <article class="apps__item">
+                                    <div class="apps__item-image">
+                                        <img src="img/quiz_js.png" alt="" class="responsive-img">
+                                    </div>
+                                    <div class="apps__item-content">
+                                        <h4 class="apps__item-title">
+                                            JS Quiz
+                                        </h4>
+                                        <div class="apps__item-description">
+                                            <p>
+                                                Quiz приложение с ипользованием JS и Bootstrap.C использованием последней 
+                                                версии JS ES6.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <footer class="apps__item-footer">
+                                        <a href="quiz_js/index.html" class="app__item-demo">Demo</a>
+                                    </footer>
+                                </article>
+                                <article class="apps__item">
+                                        <div class="apps__item-image">
+                                            <img src="img/pix.png" alt="" target="_blank" class="responsive-img">
+                                        </div>
+                                        <div class="apps__item-content">
+                                            <h4 class="apps__item-title">
+                                                ReactJS Foto List
+                                            </h4>
+                                            <div class="apps__item-description">
+                                                <p>
+                                                    ReactJS приложоние использущее PIXIBAY API 
+                                                    для получения фотографий.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <footer class="apps__item-footer">
+                                            <a href="pixi/index.html" target="_blank" class="app__item-demo">Demo</a>
+                                        </footer>
+                                    </article>
+                                                                                                              
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section  id="blog" class="content__block blog">
+                    <div class="content__inner">
+                        <h2 class="title">
+                            <span class="title__label">Скоро...</span>
+                        </h2>
+                    </div>                    
+                </section>
+                <section id="contact" class="content__block contact">
+                    <div class="content__inner">
+                        <h2 class="title">
+                            <span class="title__label">Скоро...</span>
+                        </h2>
+                    </div>                    
+                </section>
+            </div>
+        </div>
+        <!-- content area -->
+    </div>
+    
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='app.js'></script>
+</body>
+</html>

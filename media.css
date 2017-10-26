@@ -1,0 +1,41 @@
+@media screen and (max-width: 1399px){
+    .content__inner {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+}
+
+@media screen and (max-width: 976px) {
+	    .main-nav {
+    	display: block;
+    	position: relative;
+    	left: 50%;
+    	transform: translateX(-50%);
+    }
+
+    .main-nav__link {
+    	display: block;
+    	padding: 10px 0;
+    	width: 100%;
+    	text-align: center;
+    }
+
+    .content {
+    	margin-top: 250px;
+    }
+			
+				.apps__title {
+					text-align: center;
+				}
+    .apps__cards {
+    	display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+	html {
+		fotn-size: 7px;
+	}
+
+}

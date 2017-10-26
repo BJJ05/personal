@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <section class="main" id="quiz">
+            <div class="page-header">
+                <h1 id="question"></h1>
+            </div>
+            <div class='answers'>
+                <div>
+                    <p id="choice0" class="alert alert-success"></p>
+                    <button class='btn btn-info btn-lg' id="guess0">Select</button>
+                </div>
+                <br />
+                <div>
+                    <p id="choice1" class='alert alert-success'></p>
+                    <button class='btn btn-info btn-lg' id="guess1">Select</button>
+                </div>            
+            </div>
+            <hr />
+            <h3 id="progress"></h3>
+            
+        </section>
+    </div>
+<script src='question.js'></script>
+<script src='quiz_ui.js'></script>
+<script src='quiz.js'></script>
+<script src='app.js'></script>
+</body>
+</html>
